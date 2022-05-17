@@ -84,25 +84,99 @@ body.fotos #navegacao a#fotos {
   margin-top: 60px;
 }
 
-#primario {
+#lateral {
+  width: 180px;
+  float: left;
+
+  margin: 0 0 20px -750px;
+}
+
+ #primario {
   width: 270px;
   float: left;
   background: blue;
   margin: 0 0 20px 195px;
 }
+
 #secundario {
   width: 270px;
   float: left;
   background: green;
   margin: 0 0 20px 15px;
 }
-#lateral {
-  width: 180px;
+
+#uma-coluna #primario {
+  width: 750px;
+  margin: 0 0 20px 0px;
+
+}
+#duas-colunas #primario {
+  width: 555px;
+ 
+
+}
+#tres-colunas #primario {
+  width: 270px;
   float: left;
-  background: yellow;
-  margin: 0 0 20px -750px;
+  background: blue;
+  margin: 0 0 20px 195px;
 }
 
+ .caixa {
+   background: #f3f3f3 url(assets/fundo-caixa.png);
+   margin: 10px 0;
+   padding: 5px;
+ }
+
+ h2 {
+   font-size: 1em;
+   background: #294c71;
+   color:  #fff;
+   padding: 5px;
+ }
+
+ .caixa-conteudo {
+   background: white;
+   padding: 5px;
+   margin-top: 5px;
+ }
+/* FORMATAR MENUS LATERIAS */
+
+#lateral ul a {
+  font-size: 0.9em;
+  padding: 3px;
+  display: block;
+  line-height: 30px;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #f3f3f3;
+}
+#lateral ul a:hover {
+  color: #a1a1a1;
+  background: url(assets/marcador.png) no-repeat left center #f9f9f9;
+  padding-left: 20px;
+}
+/* FORMATAR FORMUÁRIOS */
+
+label {
+  display: block;
+  cursor: pointer;
+}
+
+input {
+  width: 125px;
+  padding: 5px;
+  font-size: 0.9em ;
+  background-color: white;
+}
+
+input.submit {
+  width: 80px;
+  color: white;
+  background-color: #b10333;
+  border: 2px solid #870529;
+  
+}
 /* RODAPE */
 #container-rodape {
   background: #294c71;

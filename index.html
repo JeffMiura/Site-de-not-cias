@@ -7,34 +7,81 @@
     <title>Site De Notícias</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="home"> 
-    <div id="container"> <!-- Início container -->
-  <div class="top"> <!-- Início top -->
-    <h1 class="logo">Notícias cidades</h1>
-    <ul id="navegacao">
-      <li class="primeiro"><a id="home" href="index.html">Home</a></li>
-      <li><a  id="brasil" href="brasil.html">Brasil</a></li>
-      <li><a id="internacional" href="internacional.html">Internacional</a></li>
-      <li><a id="economia" href="economia.html">Economia</a></li>
-      <li><a id="saude" href="saude.html">Saúde</a></li>
-      <li><a id="ciencia" href="ciencia.html">Ciência</a></li>
-      <li><a id="fotos" href="fotos.html">Fotos</a></li>
-    </ul>
-  </div> <!-- Fim/top -->
+  <body id="tres-colunas" class="home">
+    <div id="container">
+      <!-- Início container -->
+      <div class="top">
+        <!-- Início top -->
+        <h1 class="logo">Notícias cidades</h1>
+        <ul id="navegacao">
+          <li class="primeiro"><a id="home" href="index.html">Home</a></li>
+          <li><a id="brasil" href="brasil.html">Brasil</a></li>
+          <li>
+            <a id="internacional" href="internacional.html">Internacional</a>
+          </li>
+          <li><a id="economia" href="economia.html">Economia</a></li>
+          <li><a id="saude" href="saude.html">Saúde</a></li>
+          <li><a id="ciencia" href="ciencia.html">Ciência</a></li>
+          <li><a id="fotos" href="fotos.html">Fotos</a></li>
+        </ul>
+      </div>
+      <!-- Fim/top -->
 
-  <div id="conteudo"> <!-- Início conteúdo-->
-    <div id="primario">Primário</div>
-    <div id="secundario">Secundário</div>
-    <div id="lateral">Lateral</div>
-        </div> <!-- Fim/conteúdo-->
+      <div id="conteudo">
+        <!-- Início conteúdo-->
+        <div id="primario">
+          <div class="caixa">
+            <h2>Entrevistas</h2>
+            <div class="caixa-conteudo">conteúdo</div>
+          </div>
+          <!-- Início/primario-->
+        </div>
+        <!--Fim/primario-->
+        <div id="secundario">
+          <!-- Início/secundario-->
+          Secundário
+        </div>
+        <!-- Fim/secundario-->
+        <div id="lateral">
+          <!-- Início/lateral-->
+          <div class="caixa">
+            <h2>Entrevistas</h2>
+            <div class="caixa-conteudo">
+              <ul>
+                <li><a href="">José Almeida</a></li>
+                <li><a href="">Felipe Silva</a></li>
+                <li><a href="">Renato Rodrigues</a></li>
+                <li><a href="">Abelardo Silveira</a></li>
+                <li><a href="">André Carlos</a></li>
+                <li><a href="">Márcio Mello</a></li>
+                <li><a href="">João Pedro</a></li>
+                <li><a href="">Fernando Weiss</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="caixa">
+            <h2>NEws</h2>
+            <div class="caixa-conteudo">
+             <form action="">
+               <div>
+                 <label for="">Email:</label>
+                 <input type="text" name="email" id="email" placeholder="E-mail">
+               </div>
+               <div>
+                 <input class="submit" type="submit" value="Cadastrar">
+               </div>
+             </form>
+            </div>
+          </div>
+        </div>
+        <!-- Fim/lateral-->
+      </div>
+      <!-- Fim/conteúdo-->
+    </div>
+    <!-- Fim/container -->
 
-        
-    </div> <!-- Fim/container -->
-
-    <div id="container-rodape" style="clear:both;">
-     <div id="rodape">
-      &copy; Copyright 2000-2022 Notícias cidade
-     </div>
+    <div id="container-rodape" style="clear: both">
+      <div id="rodape">&copy; Copyright 2000-2022 Notícias cidade</div>
     </div>
   </body>
 </html>
